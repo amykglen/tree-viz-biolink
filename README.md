@@ -1,16 +1,27 @@
-# tree-viz-biolink
+# TreeVizBiolink
 
-Tree visualizations of the [Biolink Model](https://github.com/biolink/biolink-model)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
-### To run locally
+## Development server
 
-1. Clone the repo
-2. Do `pip install -r requirements.txt`
-3. Run `python app.py --debug`
-4. Go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser (or whatever address you're directed to by the command line message output by step 3)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Note: You will need to refresh the browser page to see any local code changes.
+## Code scaffolding
 
-### Deployment
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Pushing code to `main` automatically triggers a rebuild and deployment of the application.
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
