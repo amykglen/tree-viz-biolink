@@ -26,12 +26,14 @@
             var biolinkVersion = {{biolink_version|tojson}}
 
             function getHeight() {
-                if (biolinkVersion.startsWith("3")) {
-                    return 1080;
-                } else if (biolinkVersion.startsWith("2")) {
-                    return 680;
-                } else {
+                if (biolinkVersion.startsWith("1")) {
                     return 950;
+                } else if (biolinkVersion.startsWith("2")) {
+                    return 780;
+                } else if (biolinkVersion.startsWith("3")) {
+                    return 1080;
+                } else {
+                    return 1170;
                 }
             }
 
